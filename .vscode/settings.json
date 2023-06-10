@@ -4,16 +4,14 @@
     "README.md": false,
     "node_modules": true
   },
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.format.enable": true,
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "editor.formatOnSave": false,
   "editor.formatOnPaste": true,
   "eslint.enable": true,
-  "eslint.alwaysShowStatus": true,
-  "eslint.autoFixOnSave": false,
   "json.format.enable": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
